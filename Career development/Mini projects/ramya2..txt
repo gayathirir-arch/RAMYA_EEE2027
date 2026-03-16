@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>WsCube Tech 💻</title>
+    </head>
+    <body style="color:rgb(11, 10, 9); background-color:rgb(0, 179, 255)";>
+        <center>
+
+        <h1> WsCube Tech 💻</h1>
+        <h2>Training | Tech News | Freshers Guide</h2>
+        <p>“I am learning Full Stack Development, where I build complete web applications by working on both front-end (user interface) and back-end (server, database) technologies.”</p>
+        <img src="img/img.1.jpg">
+
+         </center>
+
+        <p>I am currently pursuing a Full Stack Development course to gain comprehensive knowledge in both front-end and back-end web technologies. In this course, I am learning HTML, CSS, and JavaScript to design responsive and user-friendly interfaces, along with Java, SQL, and databases to handle server-side logic and data management. This combination helps me understand how complete web applications are designed, developed, and deployed.</p>
+        <p>Through this course, I am improving my coding skills, logical thinking, and problem-solving abilities by working on real-time projects and practical tasks. It gives me hands-on experience in building dynamic websites and connecting them with databases, which prepares me to work confidently in the IT industry as a Full Stack Developer.</p>
+
+        <h2>Lets Divide Full stack into 3 parts</h2>
+        <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <li>Database</li>
+        </ul>
+        <h2>Technologies Used for Full Stack Development</h2>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>Frontend</td>  <td>Backend</td> <td>Backend</td> 
+                </tr>
+                <tr>
+                    <td>HTML</td> <td>Java</td> <td>Mongo DB</td> 
+                </tr>
+                <tr>
+                    <td>JavaScript</td> <td>Node JS</td> <td>AWS</td> 
+                </tr>
+                <tr>
+                    <td>CSS</td> <td>Python</td> <td>MYSQL</td> 
+                </tr>
+            </table>
+        </form>
+               <hr>
+              
+               <p>
+                <center>
+                    <h3><a href="ramya1.html"> Register for a course</a>| <a href="https://www.instagram.com/reel/DTu_JwIAHcv/?l=1">Instagram</a> |<a href="https://www.youtube.com/@wscubetech">Youtube</a> </h3>
+                </center>
+               </p>
+      
+    </body>
+</html>
