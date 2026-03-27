@@ -1,0 +1,104 @@
+1.Equal buying
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+ Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N % 3 == 0) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+	}
+}
+
+2.passing exams
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		 Scanner sc = new Scanner(System.in);
+        
+        int T = sc.nextInt();
+        
+        while (T-- > 0) {
+            int X = sc.nextInt();
+            int Y = sc.nextInt();
+            int Z = sc.nextInt();
+            
+            int count = 0;
+            
+            if (X >= 50) count++;
+            if (Y >= 50) count++;
+            if (Z >= 50) count++;
+            
+            if (count >= 2) {
+                System.out.println("Yes");
+            } else {
+                System.out.println("No");
+            }
+        }
+        
+
+	}
+}
+
+3.reselling items
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		 Scanner sc = new Scanner(System.in);
+
+        int T = sc.nextInt();
+
+        while (T-- > 0) {
+            int N = sc.nextInt();
+            int K = sc.nextInt();
+
+            Integer[] A = new Integer[N];
+
+            for (int i = 0; i < N; i++) {
+                A[i] = sc.nextInt();
+            }
+
+            // Sort in descending order
+            Arrays.sort(A, Collections.reverseOrder());
+
+            int profit = 0;
+
+            for (int i = 0; i < N; i++) {
+                int cost = (i < K) ? 5 : 10;
+
+                if (A[i] > cost) {
+                    profit += (A[i] - cost);
+                } else {
+                    break; // no further profit possible
+                }
+            }
+
+            System.out.println(profit);
+        }
+
+	}
+}
+
+
+
